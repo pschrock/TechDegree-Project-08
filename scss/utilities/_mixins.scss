@@ -1,0 +1,41 @@
+@mixin cardGrid {
+  display: grid;
+  grid-template-columns: 6em auto;
+  grid-template-rows: repeat(3, 2fr);
+}
+
+@mixin card {
+  max-width: 20em;
+  padding: 1em;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #dadada;
+}
+
+@mixin secondCol {
+  grid-column-start: 2;
+}
+
+@mixin avatar {
+  width: 6em;
+  height: 6em;
+  display: inline-block;
+  border-radius: 50%;
+  // background-color: #ddd;
+}
+
+@mixin arrows {
+  position: fixed;
+  border-radius: 50%;
+  background-color: $bg-color;
+  color: darkgray;
+  padding: 1em;
+  width: 3em;
+  height: 3em;
+  top: 45%;
+  text-align: center;
+}
+
+@mixin pointer {
+  cursor: pointer;
+}

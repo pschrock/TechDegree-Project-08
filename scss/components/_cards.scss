@@ -1,0 +1,34 @@
+.card {
+  @include cardGrid;
+  @include card;
+}
+
+.name,
+.email,
+.city {
+  padding: 0.5em 1em;
+}
+
+.name {
+  @include secondCol;
+  display: flex;
+  justify-content: flex-start;
+  & span:first-child {
+    padding-right: 0.25em
+  }
+  & span:last-child {
+    flex: auto;
+  }
+}
+
+.email,
+.city {
+  @include secondCol;
+  font-size: 0.75em;
+}
+
+.card .cell,
+.card .address,
+.card .birthdate {
+  display: none;
+}

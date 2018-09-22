@@ -1,0 +1,56 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.35);
+}
+
+.modal-card {
+  width: 500px;
+  height: 600px;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.close {
+  float: right;
+  width: 2em;
+  height: 2em;
+  padding: 0.5em;
+  text-align: center;
+  @include pointer;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em auto;
+  width: 100%;
+  height: 100%;
+  & div, h3 {
+    padding: 1em 0;
+  }
+}
+
+.modal-card .city {
+  display: none;
+}
+
+.next {
+  @include arrows;
+  @include pointer;
+  float: right;
+  right: 5%;
+}
+
+.previous {
+  @include arrows;
+  @include pointer;
+  float: left;
+  left: 5%;
+}
