@@ -13,10 +13,11 @@ const modal = document.querySelector('.modal');
 const modalCardInfo = document.querySelector('.cardInfo');
 const next = document.querySelector('.next');
 const previous = document.querySelector('.previous');
+let employeeData;
 let cards;
 let selectedCard;
 
-fetch('https://randomuser.me/api/?results=12&inc=picture,name,email,cell,location,dob')
+fetch('https://randomuser.me/api/?results=12&inc=picture,name,email,cell,location,dob&nat=us')
   .then(response => response.json())
   .then(data => generateEmployeeData(data.results))
 
@@ -139,3 +140,24 @@ previous.addEventListener('click', () => {
   }
   arrows();
 })
+
+let $srch = $('header input');
+//each key typed triggers evaluation
+$srch.keyup(function () {
+  const $names = $('.name');
+  const $crntsrch = $srch.val().toLowerCase();
+  $names.each(function () {
+    const $str = $(this).html().toLowerCase();
+    const $parentCard = $(this).parent('.card');
+
+
+//compare text input for match with 'value'
+    if ($str.indexOf($crntsrch) < 0) {
+
+//show only images that match
+      $parentCard.hide();
+    } else {
+      $parentCard.show();
+    }
+  });
+});

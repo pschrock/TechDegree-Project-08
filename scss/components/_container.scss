@@ -1,3 +1,37 @@
 .container {
   position: relative;
 }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  // grid-column-start: 1;
+  // grid-column-end: 3;
+  font-size: 2em;
+  & input {
+    width: 100%;
+    margin: .5em 0 1.5em;
+    padding: 0 1em;
+    background-color: $bg-color;
+    border: none;
+    text-align: center;
+    font-size: 1.75em;
+    &:focus {
+      outline: none;
+      background-color: white;
+      font-size: 2.25em;
+      margin-bottom: .75em;
+    }
+  }
+  // @include mediaFlex(601px);
+}
+
+.employees {
+  display: grid;
+  // grid-auto-rows: minmax(138px, auto);
+  grid-gap: 2em;
+  // @include mediaGrid(601px, 2);
+  // @include mediaGrid(901px, 3);
+}

@@ -3,6 +3,10 @@
   @include card;
 }
 
+.card:hover {
+  border: 2px solid lightseagreen;
+}
+
 .name,
 .email,
 .city {
@@ -21,10 +25,11 @@
   }
 }
 
+.name,
 .email,
 .city {
   @include secondCol;
-  font-size: 0.75em;
+  font-size: 1.75em;
 }
 
 .card .cell,

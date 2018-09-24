@@ -1,11 +1,11 @@
 @mixin cardGrid {
   display: grid;
-  grid-template-columns: 6em auto;
-  grid-template-rows: repeat(3, 2fr);
+  grid-template-columns: $avatar-size auto;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 @mixin card {
-  max-width: 20em;
+  // max-width: 25em;
   padding: 1em;
   background-color: white;
   border-radius: 15px;
@@ -17,8 +17,8 @@
 }
 
 @mixin avatar {
-  width: 6em;
-  height: 6em;
+  width: $avatar-size;
+  height: $avatar-size;
   display: inline-block;
   border-radius: 50%;
   // background-color: #ddd;
@@ -38,4 +38,21 @@
 
 @mixin pointer {
   cursor: pointer;
+}
+
+@mixin mediaFlex($brk-pnt){
+  @media (min-width: $brk-pnt) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    & input {
+      margin-left: auto;
+    }
+  }
+}
+
+@mixin mediaGrid($brk-pnt, $col) {
+  @media (min-width: $brk-pnt) {
+    grid-template-columns: repeat($col, 1fr);
+  }
 }

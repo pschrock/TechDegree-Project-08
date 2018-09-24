@@ -11,26 +11,15 @@ body {
   height: 100%;
 }
 
-header {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.employees {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2em;
-}
-
 h1 {
   font-size: 1.25em;
   color: #777;
 }
 
-header,
 .container {
-  width: 64em;
-  margin: 0 auto;
+  // width: 67em;
+  width: 80%;
+  margin: 0 auto 5em;
 }
 
 h3,
