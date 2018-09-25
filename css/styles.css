@@ -6,33 +6,27 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Questrial");
-/* line 11, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 32, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
    ========================================================================== */
@@ -40,115 +34,93 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 45, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 56, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 68, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 77, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 87, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 97, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Add the correct font size in all browsers.
  */
-/* line 108, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 117, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 125, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
-/* line 129, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 140, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
    ========================================================================== */
@@ -156,7 +128,6 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 152, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -169,72 +140,59 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 168, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 178, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 187, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 198, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 210, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
  * Correct the padding in Firefox.
  */
-/* line 221, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -242,7 +200,6 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 232, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -255,193 +212,158 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 245, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 253, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 262, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 272, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 282, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 291, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 300, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
    ========================================================================== */
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 312, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
-/* line 320, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
    ========================================================================== */
 /**
  * Add the correct display in IE 10+.
  */
-/* line 331, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
-/* line 339, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_normalize.scss */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
-/* line 3, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 7, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
 body {
   font-family: 'Questrial', sans-serif;
-  background-color: #eee;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 14, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
-h1 {
-  font-size: 1.25em;
-  color: #777;
-}
-
-/* line 19, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
 .container {
-  width: 80%;
-  margin: 0 auto 5em;
-}
+  width: 95%;
+  margin: 0 auto 5em; }
 
-/* line 25, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
 h3,
 p {
-  margin: 0;
-  font-size: 1em;
-}
+  margin: 0; }
 
-/* line 31, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/base/_base.scss */
 ul {
-  margin: 0;
-  padding: 0;
-}
+  max-width: 385px;
+  margin: 0 auto;
+  padding: 0; }
+  @media (min-width: 768px) {
+    ul {
+      max-width: 720px;
+      margin: 0 auto; } }
+  @media (min-width: 1105px) {
+    ul {
+      max-width: 1035px;
+      margin: 0 auto; } }
 
-/* line 1, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_container.scss */
+body {
+  background-color: #eee; }
+
 .container {
-  position: relative;
-}
+  position: relative; }
 
-/* line 5, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_container.scss */
 header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  font-size: 2em;
-}
+  align-items: center; }
+  header h1 {
+    font-size: 1em;
+    color: #777; }
+  header input {
+    width: 100%;
+    margin: .5em 0 0.75em;
+    padding: 0 1em;
+    background-color: #eee;
+    border: none;
+    text-align: center;
+    font-size: 1.75em; }
+    header input:focus {
+      outline: none;
+      background-color: white; }
 
-/* line 13, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_container.scss */
-header input {
-  width: 100%;
-  margin: .5em 0 1.5em;
-  padding: 0 1em;
-  background-color: #eee;
-  border: none;
-  text-align: center;
-  font-size: 1.75em;
-}
-
-/* line 21, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_container.scss */
-header input:focus {
-  outline: none;
-  background-color: white;
-  font-size: 2.25em;
-  margin-bottom: .75em;
-}
-
-/* line 31, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_container.scss */
 .employees {
   display: grid;
-  grid-gap: 2em;
-}
+  grid-template-columns: 1fr;
+  grid-gap: 1em; }
+  @media (min-width: 768px) {
+    .employees {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1105px) {
+    .employees {
+      grid-template-columns: repeat(3, 1fr); } }
 
-/* line 1, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .modal {
   display: none;
   position: fixed;
@@ -449,49 +371,39 @@ header input:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.35);
-}
+  background-color: rgba(0, 0, 0, 0.35); }
 
-/* line 11, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .modal-card {
-  width: 500px;
-  height: 600px;
+  width: 95%;
+  height: 90%;
   margin: 5% auto;
   background-color: white;
-  border-radius: 15px;
-}
+  border-radius: 15px; }
 
-/* line 19, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .close {
   float: right;
   width: 2em;
   height: 2em;
   padding: 0.5em;
   text-align: center;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-/* line 28, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .cardInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 3em auto;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
+  .cardInfo div, .cardInfo h3 {
+    padding: 1em 0; }
 
-/* line 35, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
-.cardInfo div, .cardInfo h3 {
-  padding: 1em 0;
-}
+.modal-card .address {
+  text-align: center; }
 
-/* line 40, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .modal-card .city {
-  display: none;
-}
+  display: none; }
 
-/* line 44, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .next {
   position: fixed;
   border-radius: 50%;
@@ -504,10 +416,8 @@ header input:focus {
   text-align: center;
   cursor: pointer;
   float: right;
-  right: 5%;
-}
+  right: 5%; }
 
-/* line 51, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_modal.scss */
 .previous {
   position: fixed;
   border-radius: 50%;
@@ -520,81 +430,53 @@ header input:focus {
   text-align: center;
   cursor: pointer;
   float: left;
-  left: 5%;
-}
+  left: 5%; }
 
-/* line 1, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
+@media (min-width: 768px) {
+  .modal-card {
+    width: 60%;
+    height: 80%;
+    margin: 10% auto; } }
+
 .card {
   display: grid;
-  grid-template-columns: 12em auto;
+  grid-template-columns: 5em auto;
   grid-template-rows: repeat(3, 1fr);
   padding: 1em;
   background-color: white;
   border-radius: 15px;
-  border: 2px solid #dadada;
-}
+  border: 2px solid #dadada; }
 
-/* line 6, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
 .card:hover {
-  border: 2px solid lightseagreen;
-}
+  border: 2px solid lightseagreen; }
 
-/* line 10, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
-.name,
-.email,
-.city {
-  padding: 0.5em 1em;
-}
-
-/* line 16, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
 .name {
-  grid-column-start: 2;
   display: flex;
-  justify-content: flex-start;
-}
+  justify-content: flex-start; }
+  .name span:first-child {
+    padding-right: 0.25em; }
+  .name span:last-child {
+    flex: auto; }
 
-/* line 20, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
-.name span:first-child {
-  padding-right: 0.25em;
-}
-
-/* line 23, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
-.name span:last-child {
-  flex: auto;
-}
-
-/* line 28, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
 .name,
 .email,
 .city {
-  grid-column-start: 2;
-  font-size: 1.75em;
-}
+  font-size: 1em; }
 
-/* line 35, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_cards.scss */
 .card .cell,
 .card .address,
 .card .birthdate {
-  display: none;
-}
+  display: none; }
 
-/* line 1, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_images.scss */
-.image,
-.image img {
-  width: 12em;
-  height: 12em;
-  display: inline-block;
-  border-radius: 50%;
+.image {
+  width: 5em;
+  height: 4em;
   grid-row-start: 1;
-  grid-row-end: 4;
-}
+  grid-row-end: 4; }
 
-/* line 8, C:/Users/Peter/Documents/Treehouse/Techdegree Projects/Project 08 - Employee Directory/TechDegree-Project-08/scss/components/_images.scss */
+.image img,
 .avatar img {
-  width: 12em;
-  height: 12em;
+  width: 4em;
+  height: 4em;
   display: inline-block;
-  border-radius: 50%;
-}
-
-/*# sourceMappingURL=../css/styles.map */
+  border-radius: 50%; }

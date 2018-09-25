@@ -1,10 +1,11 @@
-.image,
-.image img {
-  @include avatar;
+.image {
+  @include avatar($img-border);
   grid-row-start: 1;
   grid-row-end: 4;
 }
-
+.image img,
 .avatar img {
-  @include avatar;
+  @include avatar(0);
+  display: inline-block;
+  border-radius: 50%;
 }

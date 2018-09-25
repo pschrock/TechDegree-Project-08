@@ -9,8 +9,8 @@
 }
 
 .modal-card {
-  width: 500px;
-  height: 600px;
+  width: 95%;
+  height: 90%;
   margin: 5% auto;
   background-color: white;
   border-radius: 15px;
@@ -37,6 +37,10 @@
   }
 }
 
+.modal-card .address {
+  text-align: center;
+}
+
 .modal-card .city {
   display: none;
 }
@@ -53,4 +57,12 @@
   @include pointer;
   float: left;
   left: 5%;
+}
+
+@media (min-width: 768px) {
+  .modal-card {
+    width: 60%;
+    height: 80%;
+    margin: 10% auto;
+  }
 }

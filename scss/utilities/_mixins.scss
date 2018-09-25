@@ -1,27 +1,19 @@
 @mixin cardGrid {
   display: grid;
-  grid-template-columns: $avatar-size auto;
+  grid-template-columns: $grid-avatar-size auto;
   grid-template-rows: repeat(3, 1fr);
 }
 
 @mixin card {
-  // max-width: 25em;
-  padding: 1em;
+  padding: $img-border;
   background-color: white;
   border-radius: 15px;
   border: 2px solid #dadada;
 }
 
-@mixin secondCol {
-  grid-column-start: 2;
-}
-
-@mixin avatar {
-  width: $avatar-size;
+@mixin avatar($margin) {
+  width: $avatar-size + $margin;
   height: $avatar-size;
-  display: inline-block;
-  border-radius: 50%;
-  // background-color: #ddd;
 }
 
 @mixin arrows {
